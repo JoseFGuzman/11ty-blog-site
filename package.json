@@ -4,12 +4,15 @@
   "description": "Blog con eleventy",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve"
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
   "keywords": [],
   "author": "José Guzman",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
-  }
+    "@11ty/eleventy": "^2.0.1",
+    "nunjucks": "^3.2.4"
+  },
+  "dependencies": {}
 }
