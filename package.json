@@ -1,0 +1,15 @@
+{
+  "name": "11ty-blog-site",
+  "version": "1.0.0",
+  "description": "Blog con eleventy",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve"
+  },
+  "keywords": [],
+  "author": "José Guzman",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
